@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  php-apache:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-09T13:02:56.689998-07:00"
+    description: A Helm chart for Kubernetes
+    digest: b49486af211543c44cc2c742b84fd49d428a8d73f00f008d8cd075e2cfa13b43
+    name: php-apache
+    type: application
+    urls:
+    - https://abhi5125.github.io/helm-charts/php-apache-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-09T13:02:56.689477-07:00"
