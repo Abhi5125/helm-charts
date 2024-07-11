@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: {{.Values.deployment.name}}
 spec:
+  replicas: 3
   selector:
     matchLabels:
       run: {{.Values.deployment.name}}
